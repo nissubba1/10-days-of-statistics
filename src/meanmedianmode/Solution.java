@@ -1,5 +1,18 @@
 package meanmedianmode;
 
+/*************************************************************
+ *  Project Name : days-of-statistics
+ *  File Name    : Solution.java
+ *  Author       : Nishan Subba
+ *  Created Date : 8/15/25
+ *  Description  : Solution to HackerRank's Mean, Median, and Mode problem
+ *
+ *  Last Modified: 8/15/25
+ *  Modified By  : Nishan Subba
+ *  Modifications:
+ *      - 8/15/25 [What was changed and why]
+ *************************************************************/
+
 import java.util.*;
 
 public class Solution {
@@ -55,7 +68,7 @@ public class Solution {
         double median;
 
         if (arraySize % 2 == 0) {
-            median = Math.round(((numList.get(arraySize / 2) + numList.get((arraySize / 2) - 1)) / (double) 2) * 10.0) / 10.0 ;
+            median = Math.round(((numList.get(arraySize / 2) + numList.get((arraySize / 2) - 1)) / (double) 2) * 10.0) / 10.0;
         } else {
             int index = (arraySize - 1) / 2;
             median = Math.round(numList.get(index) * 10.0) / 10.0;

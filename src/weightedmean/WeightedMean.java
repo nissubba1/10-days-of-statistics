@@ -1,5 +1,18 @@
 package weightedmean;
 
+/*************************************************************
+ *  Project Name : days-of-statistics
+ *  File Name    : WeightedMean.java
+ *  Author       : Nishan Subba
+ *  Created Date : 8/15/25
+ *  Description  : Solution to HackerRank's Weighted Mean problem
+ *
+ *  Last Modified: 8/15/25
+ *  Modified By  : Nishan Subba
+ *  Modifications:
+ *      - 8/15/25 [What was changed and why]
+ *************************************************************/
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -29,7 +42,7 @@ class Result {
                 .mapToInt(Integer::intValue)
                 .sum();
 
-        System.out.println("Sum: "  + arrayTotal + " W sum: " +  weightedSum);
+        System.out.println("Sum: " + arrayTotal + " W sum: " + weightedSum);
 
         double avgMean = Math.round((arrayTotal / (double) weightedSum) * 10.0) / 10.0;
 
@@ -38,7 +51,7 @@ class Result {
 }
 
 public class WeightedMean {
-     // Input test
+    // Input test
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int arraySize = input.nextInt();

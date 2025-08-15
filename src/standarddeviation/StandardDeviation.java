@@ -1,5 +1,18 @@
 package standarddeviation;
 
+/*************************************************************
+ *  Project Name : days-of-statistics
+ *  File Name    : StandardDeviation.java
+ *  Author       : Nishan Subba
+ *  Created Date : 8/15/25
+ *  Description  : Solution to HackerRank's Standard Deviation problem
+ *
+ *  Last Modified: 8/15/25
+ *  Modified By  : Nishan Subba
+ *  Modifications:
+ *      - 8/15/25 [What was changed and why]
+ *************************************************************/
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
